@@ -6,7 +6,7 @@
 ## Подготовка
 * Установите [Docker](https://learn.microsoft.com/ru-ru/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-Server);
 * Установите [Visual Studio Code](https://code.visualstudio.com/download);
-* Загрузите расширение [Oracle Developer Tools for VS Code (SQL and PLSQL)](https://marketplace.visualstudio.com/items?itemName=Oracle.oracledevtools);
+* Загрузите расширение [Oracle SQL Developer Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer);
 
 ## Инструкция
 
