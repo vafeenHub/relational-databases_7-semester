@@ -29,6 +29,9 @@
 > [!TIP]
 > Пароль: Passw0rd
 
+> [!CAUTION]
+> Не открывайте соединение больше одного раза! Если в одном файле открыли его, в другом нужно закрыть, иначе файл будет удерживать его, и запросы с других файлов не будут проходить или будут проходить с ошибкой
+
 > [!NOTE]
 > [Dockerfile](/Environment/bin/Dockerfile) базируется на [данном репозитории](https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance/dockerfiles/21.3.0).
 
