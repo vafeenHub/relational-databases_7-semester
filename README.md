@@ -1,53 +1,8 @@
 # Реляционные системы управления базами данных 7 семестр
 
-## Установка окружения
+## Инструкция по установке
 
-### Подготовка
-
-* Установите [Docker](https://learn.microsoft.com/ru-ru/virtualization/windowscontainers/quick-start/set-up-environment?tabs=Windows-Server);
-* Установите [Visual Studio Code](https://code.visualstudio.com/download);
-* Загрузите расширение [Oracle SQL Developer Extension for VSCode](https://marketplace.visualstudio.com/items?itemName=Oracle.sql-developer);
-
-### Инструкция
-
-Вы можете воссоздать контейнер из предсобранного образа или собрать его вручную.
-
-#### Запуск предсобранной версии
-
-Для запуска контейнера откройте консоль и выполните: `docker run --name oracledb -p 1521:1521 -p 5500:5500 -p 8080:8080 --cpus=0.5 -m 2g -td ghcr.io/niapollab/rsubd`.
-
-#### Ручная сборка
-
-1. Клонируйте репозиторий;
-2. Откройте консоль в директории [Environment](/Environment);
-3. В консоли выполните:
-
-    ```sh
-    build
-    ```
-
-4. Дождитесь завершения построения контейнера.
-
-#### Настройка соединения в VSCode
-
-![Новое соединение](/Environment/.resources/oracle_developer_tools_create_connection.png)
-> [!TIP]
-> Пароль: Passw0rd
-
-> [!CAUTION]
-> Не открывайте соединение более чем в одном файле одновременно. Если вы уже открыли соединение в этом файле для выполнения запросов, сначала закройте его перед тем, как использовать другой файл. Иначе соединение останется активным, из-за чего последующие запросы из других файлов будут либо блокироваться, либо завершаться с ошибкой.
-
-> [!WARNING]
-> Docker может слишком долго подключаться к Oracle, изз-за чего VSCode будет выдавать ошибку подключения. Контейнер Oracle, когда полностью готов к использованию, пишет в логах следующее сообщение
->
->```
->#########################
->DATABASE IS READY TO USE!
->#########################
->```
-
-> [!NOTE]
-> [Dockerfile](/Environment/bin/Dockerfile) базируется на [данном репозитории](https://github.com/oracle/docker-images/tree/main/OracleDatabase/SingleInstance/dockerfiles/21.3.0).
+[Инструкция](https://github.com/Niapollab/Relational-databases_7-semester/blob/master/README.md)
 
 ## Task
 
